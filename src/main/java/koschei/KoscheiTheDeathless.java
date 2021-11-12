@@ -13,7 +13,7 @@ public class KoscheiTheDeathless {
         return "На свете есть океан , " + ocean.toString();
     }
 
-    @Autowired
+    @Autowired                               //операция называется «инжектнуть» (inject)
     public void setOcean(Ocean1 ocean) {
         this.ocean = ocean;
     }
